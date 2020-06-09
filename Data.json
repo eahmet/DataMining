@@ -1,0 +1,570 @@
+[
+  {
+    "CaseId": 1,
+    "Event ID": 35654423,
+    "EventDate": "30-12-2010:11.02",
+    "Activity": "register request",
+    "Resource": "Pete",
+    "Costs": 50
+  },
+  {
+    "CaseId": 1,
+    "Event ID": 35654424,
+    "EventDate": "31-12-2010:10.06",
+    "Activity": "examine thoroughly",
+    "Resource": "Sue",
+    "Costs": 400
+  },
+  {
+    "CaseId": 1,
+    "Event ID": 35654425,
+    "EventDate": "05-01-2011:15.12",
+    "Activity": "check ticket",
+    "Resource": "Mike",
+    "Costs": 100
+  },
+  {
+    "CaseId": 1,
+    "Event ID": 35654426,
+    "EventDate": "06-01-2011:11.18",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 1,
+    "Event ID": 35654427,
+    "EventDate": "07-01-2011:14.24",
+    "Activity": "reject request",
+    "Resource": "Pete",
+    "Costs": 200
+  },
+  {
+    "CaseId": 2,
+    "Event ID": 35654483,
+    "EventDate": "30-12-2010:11.32",
+    "Activity": "register request1",
+    "Resource": "Mike",
+    "Costs": 50
+  },
+  {
+    "CaseId": 2,
+    "Event ID": 35654485,
+    "EventDate": "30-12-2010:12.12",
+    "Activity": "check ticket",
+    "Resource": "Mike",
+    "Costs": 100
+  },
+  {
+    "CaseId": 2,
+    "Event ID": 35654487,
+    "EventDate": "30-12-2010:14.16",
+    "Activity": "examine casually",
+    "Resource": "Sean",
+    "Costs": 400
+  },
+  {
+    "CaseId": 2,
+    "Event ID": 35654488,
+    "EventDate": "05-01-2011:11.22",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 2,
+    "Event ID": 35654489,
+    "EventDate": "08-01-2011:12.05",
+    "Activity": "pay compensation",
+    "Resource": "Ellen",
+    "Costs": 200
+  },
+  {
+    "CaseId": 3,
+    "Event ID": 35654521,
+    "EventDate": "30-12-2010:14.32",
+    "Activity": "register request21",
+    "Resource": "Pete",
+    "Costs": 50
+  },
+  {
+    "CaseId": 3,
+    "Event ID": 35654522,
+    "EventDate": "30-12-2010:15.06",
+    "Activity": "examine casually",
+    "Resource": "Mike",
+    "Costs": 400
+  },
+  {
+    "CaseId": 3,
+    "Event ID": 35654524,
+    "EventDate": "30-12-2010:16.34",
+    "Activity": "check ticket",
+    "Resource": "Ellen",
+    "Costs": 100
+  },
+  {
+    "CaseId": 3,
+    "Event ID": 35654525,
+    "EventDate": "06-01-2011:09.18",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 3,
+    "Event ID": 35654526,
+    "EventDate": "06-01-2011:12.18",
+    "Activity": "reinitiate request",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 3,
+    "Event ID": 35654527,
+    "EventDate": "06-01-2011:13.06",
+    "Activity": "examine thoroughly",
+    "Resource": "Sean",
+    "Costs": 400
+  },
+  {
+    "CaseId": 3,
+    "Event ID": 35654530,
+    "EventDate": "08-01-2011:11.43",
+    "Activity": "check ticket",
+    "Resource": "Pete",
+    "Costs": 100
+  },
+  {
+    "CaseId": 3,
+    "Event ID": 35654531,
+    "EventDate": "09-01-2011:09.55",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 3,
+    "Event ID": 35654533,
+    "EventDate": "15-01-2011:10.45",
+    "Activity": "pay compensation",
+    "Resource": "Ellen",
+    "Costs": 200
+  },
+  {
+    "CaseId": 4,
+    "Event ID": 35654641,
+    "EventDate": "06-01-2011:15.02",
+    "Activity": "register request",
+    "Resource": "Pete",
+    "Costs": 50
+  },
+  {
+    "CaseId": 4,
+    "Event ID": 35654643,
+    "EventDate": "07-01-2011:12.06",
+    "Activity": "check ticket",
+    "Resource": "Mike",
+    "Costs": 100
+  },
+  {
+    "CaseId": 4,
+    "Event ID": 35654644,
+    "EventDate": "08-01-2011:14.43",
+    "Activity": "examine thoroughly",
+    "Resource": "Sean",
+    "Costs": 400
+  },
+  {
+    "CaseId": 4,
+    "Event ID": 35654645,
+    "EventDate": "09-01-2011:12.02",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 4,
+    "Event ID": 35654647,
+    "EventDate": "12-01-2011:15.44",
+    "Activity": "reject request",
+    "Resource": "Ellen",
+    "Costs": 200
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654711,
+    "EventDate": "06-01-2011:09.02",
+    "Activity": "register request",
+    "Resource": "Ellen",
+    "Costs": 50
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654712,
+    "EventDate": "07-01-2011:10.16",
+    "Activity": "examine casually",
+    "Resource": "Mike",
+    "Costs": 400
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654714,
+    "EventDate": "08-01-2011:11.22",
+    "Activity": "check ticket",
+    "Resource": "Pete",
+    "Costs": 100
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654715,
+    "EventDate": "10-01-2011:13.28",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654716,
+    "EventDate": "11-01-2011:16.18",
+    "Activity": "reinitiate request",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654718,
+    "EventDate": "14-01-2011:14.33",
+    "Activity": "check ticket",
+    "Resource": "Ellen",
+    "Costs": 100
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654719,
+    "EventDate": "16-01-2011:15.50",
+    "Activity": "examine casually",
+    "Resource": "Mike",
+    "Costs": 400
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654720,
+    "EventDate": "19-01-2011:11.18",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654721,
+    "EventDate": "20-01-2011:12.48",
+    "Activity": "reinitiate request",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654722,
+    "EventDate": "21-01-2011:09.06",
+    "Activity": "examine casually",
+    "Resource": "Sue",
+    "Costs": 400
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654724,
+    "EventDate": "21-01-2011:11.34",
+    "Activity": "check ticket",
+    "Resource": "Pete",
+    "Costs": 100
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654725,
+    "EventDate": "23-01-2011:13.12",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 5,
+    "Event ID": 35654726,
+    "EventDate": "24-01-2011:14.56",
+    "Activity": "reject request",
+    "Resource": "Mike",
+    "Costs": 200
+  },
+  {
+    "CaseId": 6,
+    "Event ID": 35654871,
+    "EventDate": "06-01-2011:15.02",
+    "Activity": "register request",
+    "Resource": "Mike",
+    "Costs": 50
+  },
+  {
+    "CaseId": 6,
+    "Event ID": 35654873,
+    "EventDate": "06-01-2011:16.06",
+    "Activity": "examine casually",
+    "Resource": "Ellen",
+    "Costs": 400
+  },
+  {
+    "CaseId": 6,
+    "Event ID": 35654874,
+    "EventDate": "07-01-2011:16.22",
+    "Activity": "check ticket",
+    "Resource": "Mike",
+    "Costs": 100
+  },
+  {
+    "CaseId": 6,
+    "Event ID": 35654875,
+    "EventDate": "07-01-2011:16.52",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 6,
+    "Event ID": 35654877,
+    "EventDate": "16-01-2011:11.47",
+    "Activity": "pay compensation",
+    "Resource": "Mike",
+    "Costs": 200
+  },
+  {
+    "CaseId": 7,
+    "Event ID": 44100000,
+    "EventDate": "15-01-2011:12.00",
+    "Activity": "register request",
+    "Resource": "Mike",
+    "Costs": 50
+  },
+  {
+    "CaseId": 7,
+    "Event ID": 44100001,
+    "EventDate": "16-01-2011:12.00",
+    "Activity": "examine thoroughly",
+    "Resource": "Sean",
+    "Costs": 400
+  },
+  {
+    "CaseId": 7,
+    "Event ID": 44100002,
+    "EventDate": "17-01-2011:12.00",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 7,
+    "Event ID": 44100003,
+    "EventDate": "18-01-2011:12.00",
+    "Activity": "pay compensation",
+    "Resource": "Ellen",
+    "Costs": 200
+  },
+  {
+    "CaseId": 8,
+    "Event ID": 44200000,
+    "EventDate": "19-01-2011:12.00",
+    "Activity": "register request",
+    "Resource": "Mike",
+    "Costs": 50
+  },
+  {
+    "CaseId": 8,
+    "Event ID": 44200001,
+    "EventDate": "20-01-2011:12.00",
+    "Activity": "examine thoroughly",
+    "Resource": "Sean",
+    "Costs": 400
+  },
+  {
+    "CaseId": 8,
+    "Event ID": 44200002,
+    "EventDate": "21-01-2011:12.00",
+    "Activity": "check ticket",
+    "Resource": "Pete",
+    "Costs": 100
+  },
+  {
+    "CaseId": 8,
+    "Event ID": 44200003,
+    "EventDate": "22-01-2011:12.00",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654711,
+    "EventDate": "06-01-2011:09.02",
+    "Activity": "register request",
+    "Resource": "Ellen",
+    "Costs": 50
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654712,
+    "EventDate": "07-01-2011:10.16",
+    "Activity": "check ticket",
+    "Resource": "Pete",
+    "Costs": 100
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654714,
+    "EventDate": "08-01-2011:11.22",
+    "Activity": "examine casually",
+    "Resource": "Mike",
+    "Costs": 400
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654715,
+    "EventDate": "10-01-2011:13.28",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654716,
+    "EventDate": "11-01-2011:16.18",
+    "Activity": "reinitiate request",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654718,
+    "EventDate": "14-01-2011:14.33",
+    "Activity": "check ticket",
+    "Resource": "Ellen",
+    "Costs": 100
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654719,
+    "EventDate": "16-01-2011:15.50",
+    "Activity": "examine casually",
+    "Resource": "Mike",
+    "Costs": 400
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654720,
+    "EventDate": "19-01-2011:11.18",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654721,
+    "EventDate": "20-01-2011:12.48",
+    "Activity": "reinitiate request",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654722,
+    "EventDate": "21-01-2011:09.06",
+    "Activity": "examine thoroughly",
+    "Resource": "Sean",
+    "Costs": 400
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654724,
+    "EventDate": "21-01-2011:11.34",
+    "Activity": "check ticket",
+    "Resource": "Pete",
+    "Costs": 100
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654725,
+    "EventDate": "23-01-2011:13.12",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 9,
+    "Event ID": 45654726,
+    "EventDate": "24-01-2011:14.56",
+    "Activity": "reject request",
+    "Resource": "Mike",
+    "Costs": 200
+  },
+  {
+    "CaseId": 10,
+    "Event ID": 55654521,
+    "EventDate": "30-12-2010:14.32",
+    "Activity": "register request",
+    "Resource": "Pete",
+    "Costs": 50
+  },
+  {
+    "CaseId": 10,
+    "Event ID": 55654522,
+    "EventDate": "30-12-2010:15.06",
+    "Activity": "examine casually",
+    "Resource": "Mike",
+    "Costs": 400
+  },
+  {
+    "CaseId": 10,
+    "Event ID": 55654524,
+    "EventDate": "30-12-2010:16.34",
+    "Activity": "check ticket",
+    "Resource": "Ellen",
+    "Costs": 100
+  },
+  {
+    "CaseId": 10,
+    "Event ID": 55654525,
+    "EventDate": "06-01-2011:09.18",
+    "Activity": "decide",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 10,
+    "Event ID": 55654526,
+    "EventDate": "06-01-2011:12.18",
+    "Activity": "reinitiate request",
+    "Resource": "Sara",
+    "Costs": 200
+  },
+  {
+    "CaseId": 10,
+    "Event ID": 55654527,
+    "EventDate": "06-01-2011:13.06",
+    "Activity": "examine thoroughly",
+    "Resource": "Sean",
+    "Costs": 400
+  },
+  {
+    "CaseId": 10,
+    "Event ID": 55654530,
+    "EventDate": "08-01-2011:11.43",
+    "Activity": "check ticket",
+    "Resource": "Pete",
+    "Costs": 100
+  },
+  {
+    "CaseId": 10,
+    "Event ID": 55654533,
+    "EventDate": "15-01-2011:10.45",
+    "Activity": "pay compensation",
+    "Resource": "Ellen",
+    "Costs": 200
+  }
+]
