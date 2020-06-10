@@ -69,7 +69,7 @@ namespace DataMiningForm
 
                 return mineDataList;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 var jsonString = File.ReadAllText("Data.json");
                 var mineData = JsonConvert.DeserializeObject<List<MineClass>>(jsonString, new JsonSerializerSettings
@@ -125,20 +125,20 @@ namespace DataMiningForm
             foreach (var activity in activityList)
             {
                 if(activityDictionary.Values.Any(d => d.Contains(activity))) continue;
-                foreach (var tactivity in activityList)
+                foreach (var tActivity in activityList)
                 {
-                    var distance = StringUtils.CalculateDistance(activity, tactivity);
+                    var distance = StringUtils.CalculateDistance(activity, tActivity);
                     if (stepDistance >= distance)
                     {
                         if (activityDictionary.ContainsKey(activity))
                         {
-                            activityDictionary[activity].Add(tactivity);
+                            activityDictionary[activity].Add(tActivity);
                         }
                         else
                         {
-                            if (!activityDictionary.Values.Any(d => d.Contains(tactivity)))
+                            if (!activityDictionary.Values.Any(d => d.Contains(tActivity)))
                             {
-                                activityDictionary.Add(activity,new List<string>{tactivity});
+                                activityDictionary.Add(activity,new List<string>{tActivity});
                             }
                         }
                     }
@@ -170,15 +170,15 @@ namespace DataMiningForm
                 }
 
             }
-            //if(multipleStartActivity)
-            //    processStepList.Add(new ProcessStep
-            //    {
-            //        Activity="Start",
-            //        Cost=0,
-            //        ModelKey="Start",
-            //        Name="Start",
-            //        Id = 1
-            //    });
+            if (multipleStartActivity)
+                processStepList.Add(new ProcessStep
+                {
+                    Activity = "Start",
+                    Cost = 0,
+                    ModelKey = "Start",
+                    Name = "Start",
+                    Id = 1
+                });
             foreach (var caseNo in caseNumber)
             {
                 var caseActivities = mineData.Where(x=>x.CaseId==caseNo).OrderBy(x=>x.EventDate).ToList();
